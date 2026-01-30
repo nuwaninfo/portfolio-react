@@ -1,0 +1,19 @@
+import React from "react";
+import "./hero.css";
+import profile_img from "../../assets/profile_img.jpeg";
+
+const Hero = () => {
+  return (
+    <div className="hero">
+      <img src={profile_img} alt="Profile" />
+      <h1>I am Nuwan Fernando</h1>
+      <p>Software Developer</p>
+      <div className="hero-action">
+        <div className="hero-connect">Connect with me</div>
+        <div className="hero-resume">My Resume</div>
+      </div>
+    </div>
+  );
+};
+
+export default Hero;

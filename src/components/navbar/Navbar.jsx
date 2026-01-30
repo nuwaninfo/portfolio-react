@@ -1,11 +1,11 @@
 import React from "react";
 import "./Navbar.css";
-import logo from "../../assets/logo.svg";
+import logo from "../../assets/logo_nuwan.svg";
 
 const Navbar = () => {
   return (
     <div className="navbar">
-      <img src={logo} alt="Logo" />
+      <img src={logo} alt="Logo" className="logo" />
       <ul className="nav-menu">
         <li>Home</li>
         <li>About Me</li>
