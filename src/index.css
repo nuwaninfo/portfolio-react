@@ -1,8 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  /* border: 1px solid red;
-  background: rgba(0, 255, 0, 0.1);*/
+  border: 1px solid red;
+  background: rgba(0, 255, 0, 0.1);
 }
 body {
   height: 100vh;
