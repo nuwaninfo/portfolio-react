@@ -2,7 +2,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 20px 170px;
+
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #593dade3;
 }
 .nav-menu {
   display: flex;
@@ -25,4 +29,18 @@
 .logo {
   height: 50px;
   width: auto;
+}
+.nav-menu li {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+}
+.nav-menu li img {
+  display: flex;
+  margin: auto;
+}
+.anchor-link {
+  text-decoration: none;
+  color: white;
 }
